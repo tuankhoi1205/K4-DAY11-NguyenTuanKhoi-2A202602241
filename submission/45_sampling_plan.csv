@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,medium_baseline,Giữ đối chứng cho xe và người ở center trong điều kiện ít che khuất
+front,hard,30,high_dense_occlusion,Ưu tiên rider đông đối tượng nhỏ và che khuất tại mid hoặc edge
+rear,normal,20,medium_small_objects,Đo baseline cho vật đi xa và phân bố kích thước đặc trưng của camera sau
+rear,hard,25,high_truncation_ego,Soát vật bị cắt bởi vòng kính hoặc thân xe ego và các ca sát biên
+left,normal,20,medium_side_view,Giữ mẫu đối chứng cho phương tiện đi ngang với hình học box thông thường
+left,hard,30,high_fisheye_seam,Ưu tiên méo edge vật cắt biên và ca có thể xuất hiện ở seam với front hoặc rear
+right,normal,20,medium_side_view,Giữ mẫu đối chứng cân bằng với camera trái và kiểm tra lệch hướng quan sát
+right,hard,30,high_fisheye_seam,Ưu tiên Bike ThreeWheeler che khuất và vật méo gần seam hoặc lens border

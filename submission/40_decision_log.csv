@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+D01,2026-09-28,L3 o adasind_152940 la ThreeWheeler hay Truck,Doi L3 thanh Truck va giu ThreeWheeler ke ben la mot doi tuong rieng,Reference R5 va model M9 dong y Truck; delta xac nhan loi L3 va R5 da sua,done
+D02,2026-09-28,Xu ly model-only M5 M6 tai edge cua adasind_212280 the nao,Giu annotation va reference hien tai; chuyen ai_team kiem tra tren mau edge lon hon,Model edge match 0 tren 2 reference va sinh 3 box thua; ket qua on dinh qua IoU 0.3 0.5 0.7,escalated
+D03,2026-09-28,Co sua nhan learner theo cac box chi model phat hien khong,Khong them box chi dua vao model; danh dau keep_with_reason neu reference va anh khong du ung ho,Cell M_only khong tu chung minh annotation sai va model co pattern false positive o edge,done
+D04,2026-09-28,Phan bo 200 frame gia lap cho bon camera ra sao,Chia du front rear left right theo normal hard va tranh lay nhieu frame lien tiep cung scene,Ke hoach can bao phu moi camera va hard case nhung khong duoc coi frame tuong quan la bang chung doc lap,done

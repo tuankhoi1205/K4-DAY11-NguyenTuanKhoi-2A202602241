@@ -1,0 +1,9 @@
+round: rework
+slice: B3-center
+sha256: da754dcdb5e8b179d13b7562922f37c2c6a13d34d51bc48e1270805a6972cf78
+code: DA75-4DCD
+locked_at: 2026-09-28T22:07:39+07:00
+shapes: box=16, polygon=13
+prefill_kept: 2
+prefill_edited: 1
+new: 13
